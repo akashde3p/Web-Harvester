@@ -9,7 +9,7 @@
 
      <style>
         body{
-            background-image:url("images/office2.jpg");
+            background-image:url("images/Blur.jpg");
             background-attachment: fixed;
             background-size: cover;
         }
@@ -54,6 +54,8 @@
 
             <asp:Button ID="ButtonURL" runat="server" OnClick="Button1_Click"  Text="Submit" />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click"  PostBackUrl="~/ShowData.aspx" Text="Show Data" />
+
+            <asp:Button ID="ButtonPersonal" runat="server" OnClick="ButtonPersonal_Click" Text="Personal Data" />
 
         </form>
     </div>

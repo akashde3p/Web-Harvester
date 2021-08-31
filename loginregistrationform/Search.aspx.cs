@@ -137,6 +137,10 @@ namespace loginregistrationform
             GetHtmlAsync();
         }
 
+        protected void ButtonPersonal_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("personalData.aspx");
+        }
     }
 }
 
